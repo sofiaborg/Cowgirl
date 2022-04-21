@@ -1,0 +1,25 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "mockup-task",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiaborg/mockup-task.git"
+  },
+  "keywords": [
+    "design"
+  ],
+  "author": "sofia borg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiaborg/mockup-task/issues"
+  },
+  "homepage": "https://github.com/sofiaborg/mockup-task#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
