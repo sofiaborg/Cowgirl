@@ -1,2 +1,253 @@
-body {
-  background-color: aliceblue; }
+header .cart {
+  padding-right: 30px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: end; }
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; }
+  header nav .img-wrapper {
+    width: 200px; }
+    header nav .img-wrapper img {
+      width: 100%; }
+  header nav .navbar-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 60px; }
+    header nav .navbar-wrapper a {
+      font-size: 16pt;
+      text-decoration: none;
+      color: black; }
+      header nav .navbar-wrapper a:hover {
+        text-decoration: underline; }
+
+@media screen and (min-width: 640px) {
+  header nav {
+    width: 100%; }
+    header nav .img-wrapper {
+      padding-bottom: 20px;
+      width: 300px; }
+      header nav .img-wrapper img {
+        width: 100%; }
+    header nav .navbar-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      gap: 50px;
+      padding-top: 10px;
+      padding-bottom: 100px; }
+      header nav .navbar-wrapper a {
+        text-decoration: none;
+        color: black; }
+        header nav .navbar-wrapper a:hover {
+          text-decoration: underline; } }
+
+.row-one {
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center; }
+  .row-one .one-wrapper {
+    width: 3600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .row-one .one-wrapper img {
+      width: 100%; }
+      .row-one .one-wrapper img:hover {
+        cursor: crosshair; }
+    .row-one .one-wrapper div {
+      width: 350px; }
+      .row-one .one-wrapper div h4 {
+        font-size: 18pt;
+        text-align: center; }
+
+@media screen and (min-width: 640px) {
+  .row-one .one-wrapper {
+    width: 600px; } }
+
+@media screen and (min-width: 1024px) {
+  .row-one .one-wrapper {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px; }
+    .row-one .one-wrapper img {
+      width: 60%; }
+    .row-one .one-wrapper div {
+      width: 500px; }
+      .row-one .one-wrapper div h4 {
+        font-size: 18pt;
+        text-align: center; } }
+
+.row-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fbdfe9;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .row-two .wrapper {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; }
+    .row-two .wrapper .product-div {
+      width: 300px; }
+      .row-two .wrapper .product-div img {
+        width: 100%; }
+        .row-two .wrapper .product-div img:hover {
+          cursor: crosshair; }
+      .row-two .wrapper .product-div .info-div {
+        width: 290px;
+        display: flex;
+        justify-content: space-between; }
+        .row-two .wrapper .product-div .info-div h6 {
+          font-size: 12pt;
+          color: #c0282e;
+          padding: 0px;
+          margin: 2px; }
+          .row-two .wrapper .product-div .info-div h6:hover {
+            cursor: pointer; }
+  .row-two h3 {
+    padding-top: 50px;
+    color: #c0282e;
+    text-align: center;
+    cursor: pointer; }
+    .row-two h3:hover {
+      text-decoration: underline; }
+
+@media screen and (min-width: 640px) {
+  .row-two .wrapper {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px; }
+    .row-two .wrapper .product-div {
+      width: 350px; }
+      .row-two .wrapper .product-div .info-div {
+        width: 340px; } }
+
+@media screen and (min-width: 1024px) {
+  .row-two {
+    padding-top: 0px; }
+    .row-two h1 {
+      padding: 30px; }
+    .row-two .wrapper {
+      width: 1200px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 50px; }
+      .row-two .wrapper .product-div {
+        width: 350px; } }
+
+.row-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  padding-top: 50px; }
+  .row-three .three-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .row-three .three-wrapper h1 {
+      color: #c0282e;
+      text-transform: uppercase;
+      padding-top: 50px; }
+    .row-three .three-wrapper .about-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .row-three .three-wrapper .about-text h4 {
+        text-align: center; }
+    .row-three .three-wrapper .about-img {
+      width: 400px; }
+      .row-three .three-wrapper .about-img img {
+        width: 100%; }
+
+@media screen and (min-width: 640px) {
+  .row-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .row-three .three-wrapper {
+      width: 800px;
+      display: flex;
+      flex-direction: row; }
+      .row-three .three-wrapper h1 {
+        font-size: 30pt; }
+      .row-three .three-wrapper .about-text {
+        width: 400px; }
+      .row-three .three-wrapper .about-img {
+        width: 400px; }
+        .row-three .three-wrapper .about-img img {
+          width: 100%; } }
+
+@media screen and (min-width: 640px) and (min-width: 1024px) {
+  .row-three {
+    width: 100%;
+    padding-bottom: 70px; }
+    .row-three .three-wrapper {
+      width: 1100px; }
+      .row-three .three-wrapper .about-text {
+        width: 500px; }
+      .row-three .three-wrapper .about-img {
+        width: 600px; }
+        .row-three .three-wrapper .about-img img {
+          width: 100%; } }
+
+footer {
+  background-color: #fbdfe9;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; }
+  footer .footerwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 300px; }
+    footer .footerwrapper .textbox > h4 {
+      text-align: center; }
+
+@media screen and (min-width: 640px) {
+  footer .footerwrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 600px; } }
+
+@media screen and (min-width: 1024px) {
+  footer .footerwrapper {
+    gap: 50px;
+    width: 1100px; } }
+
+body,
+html {
+  font-family: "IBM Plex Serif", serif;
+  margin: 0px;
+  background-color: #fbf3f3; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }

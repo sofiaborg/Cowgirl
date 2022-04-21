@@ -1,0 +1,64 @@
+//mobile
+
+.row-one {
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  .one-wrapper {
+    width: 3600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      &:hover {
+        cursor: crosshair;
+      }
+    }
+    div {
+      width: 350px;
+      h4 {
+        font-size: 18pt;
+        text-align: center;
+      }
+    }
+  }
+}
+
+//ipad
+@media screen and (min-width: 640px) {
+  .row-one {
+    .one-wrapper {
+      width: 600px;
+
+      div {
+        h4 {
+        }
+      }
+    }
+  }
+}
+
+//desktop
+@media screen and (min-width: 1024px) {
+  .row-one {
+    .one-wrapper {
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      img {
+        width: 60%;
+      }
+      div {
+        width: 500px;
+        h4 {
+          font-size: 18pt;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
