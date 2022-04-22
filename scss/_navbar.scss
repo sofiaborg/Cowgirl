@@ -4,6 +4,12 @@ header {
     padding-top: 30px;
     display: flex;
     justify-content: end;
+    img {
+      width: 30px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
   nav {
     display: flex;

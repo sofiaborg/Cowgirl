@@ -7,8 +7,13 @@
   justify-content: center;
   width: 100%;
   background-color: #fbdfe9;
-  padding-top: 100px;
   padding-bottom: 100px;
+  h1 {
+    color: #c0282e;
+    border-bottom: 1px solid #c0282e;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+  }
 
   .wrapper {
     width: 500px;
@@ -17,6 +22,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding-top: 30px;
     .product-div {
       width: 300px;
 
@@ -82,9 +88,9 @@
 
 @media screen and (min-width: 1024px) {
   .row-two {
-    padding-top: 0px;
+    padding-top: 20px;
     h1 {
-      padding: 30px;
+      margin-bottom: 20px;
     }
     .wrapper {
       width: 1200px;
